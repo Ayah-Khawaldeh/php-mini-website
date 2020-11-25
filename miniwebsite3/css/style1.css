@@ -1,0 +1,38 @@
+body {
+    margin:0px;
+    padding:0px;
+ 
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+       text-decoration: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height:60px;
+        background-color:rgb(230, 230, 230) ;
+        padding: 0px 5%;
+     }
+     nav ul {
+         display: flex;
+         color:rgb(44, 39, 39);
+     }
+     nav ul li a{
+         margin: 30px;
+         color:#9c8777;
+         font-size: 17px;
+     }
+     .logo{
+         font-family: 'Sansita Swashed', cursive;
+         color:#592448;
+         font-size: 22pX;
+         
+     }
+     .active{
+         font-weight: bold;
+         color: #070707;
+     }
